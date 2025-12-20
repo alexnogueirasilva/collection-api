@@ -1,0 +1,19 @@
+meta {
+  name: Partial
+  type: http
+  seq: 3
+}
+
+patch {
+  url: {{url}}/api/branches/:id
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 
+}
+
+settings {
+  encodeUrl: true
+}

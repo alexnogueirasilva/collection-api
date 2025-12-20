@@ -1,0 +1,20 @@
+meta {
+  name: Attach Role
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{url}}/api/users/:id/roles/:role_id
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 
+  role_id: 
+}
+
+settings {
+  encodeUrl: true
+}

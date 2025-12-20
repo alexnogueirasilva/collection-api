@@ -1,0 +1,19 @@
+meta {
+  name: Update Branch
+  type: http
+  seq: 8
+}
+
+post {
+  url: {{url}}/api/holdings/:holding_id/branches
+  body: none
+  auth: inherit
+}
+
+params:path {
+  holding_id: 
+}
+
+settings {
+  encodeUrl: true
+}

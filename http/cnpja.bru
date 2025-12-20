@@ -1,0 +1,24 @@
+meta {
+  name: cnpja
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{url}}/api/cnpj/:tax_id?registrations=ALL
+  body: none
+  auth: inherit
+}
+
+params:query {
+  registrations: ALL
+}
+
+params:path {
+  tax_id: 05400006000170
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

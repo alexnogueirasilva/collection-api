@@ -1,17 +1,10 @@
 {
   "version": "1",
-<<<<<<< HEAD
   "name": "Invoice api",
-=======
-  "name": "Invoicex",
->>>>>>> cb0834ffb301a8ce68fc7f642dcebfd65d8c3826
   "type": "collection",
   "ignore": [
     "node_modules",
     ".git"
-<<<<<<< HEAD
-  ]
-=======
   ],
   "size": 0,
   "filesCount": 0,
@@ -19,5 +12,4 @@
     "requestType": "http",
     "requestUrl": "{{url}}"
   }
->>>>>>> cb0834ffb301a8ce68fc7f642dcebfd65d8c3826
 }

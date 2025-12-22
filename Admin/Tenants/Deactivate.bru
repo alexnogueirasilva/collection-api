@@ -1,0 +1,19 @@
+meta {
+  name: Deactivate
+  type: http
+  seq: 7
+}
+
+patch {
+  url: {{url}}/api/admin/tenants/:id/deactivate
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 
+}
+
+settings {
+  encodeUrl: true
+}

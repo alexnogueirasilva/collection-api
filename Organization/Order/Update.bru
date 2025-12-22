@@ -1,0 +1,20 @@
+meta {
+  name: Update
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{url}}/api/products/:id
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 019b4174-e2f3-77e9-8f7e-71fd17607b35
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
